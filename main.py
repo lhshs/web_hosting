@@ -6,11 +6,12 @@ import plotly.io as po
 
 
 # data load
-df = pd.read_csv('https://github.com/lhshs/mydataset/genia/Indicator18_22.csv')
+mydataset ='https://raw.githubusercontent.com/lhshs/mydataset/main/genia/2307_dashboard/Indicator18_22.csv'
+df = pd.read_csv(mydataset)
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = Dash(__name__, external_stylesheets=external_stylesheets)
-server = app.server
+# server = app.server
 
 app.layout = html.Div([
     
