@@ -1,9 +1,7 @@
 # web_hosting
 
-my first web hosting
-
-using render website
-<br>https://render.com/
+My First Web Hosting
 
 ref.
 <br>https://www.youtube.com/watch?v=H16dZMYmvqo&ab_channel=Plotly
+<br>https://render.com/
