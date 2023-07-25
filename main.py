@@ -4,6 +4,7 @@ import plotly.express as px
 import scipy.stats as stats
 import plotly.io as po
 
+
 # data load
 df = pd.read_csv('https://github.com/lhshs/mydataset/genia/Indicator18_22.csv')
 
