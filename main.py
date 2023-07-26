@@ -189,4 +189,4 @@ def update_plots(selected_column):
     return box_fig
     
 if __name__ == '__main__':
-    app.run(debug=True, port=8088)
+    app.run(debug=True)
