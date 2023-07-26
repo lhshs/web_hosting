@@ -10,7 +10,7 @@ mydataset ='https://raw.githubusercontent.com/lhshs/mydataset/main/genia/2307_da
 boxstrip_df = 'https://raw.githubusercontent.com/lhshs/mydataset/main/genia/2307_dashboard/boxsstrip.csv'
 df = pd.read_csv(mydataset)
 df_boxsstrip = pd.read_csv(boxstrip_df)#.set_index('지역')
-# server = app.server
+server = app.server
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = Dash(__name__, external_stylesheets=external_stylesheets)
